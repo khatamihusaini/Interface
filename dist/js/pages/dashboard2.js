@@ -135,7 +135,7 @@ $(function () {
 
 
      var donutData = [
-      { label: 'IndiHome', data: 10.6, color: '#dd4b39', percentage: '90,07' },
+      { label: 'IndiHome', data: 10.6, color: '#ef5350', percentage: '90,07' },
       { label: 'Non IndiHome', data: 1.2, color: '#546e7a', percentage: '9,93' }
     ]
     $.plot('#donut-chart', donutData, {
