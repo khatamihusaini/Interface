@@ -1,0 +1,51 @@
+.info-box-number {
+	font-size: 25px;
+}
+
+.box-text-1 {
+	font-size: 18px;
+}
+
+.box-text-2 {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+/*.info-box-small {
+	min-height: 45px;
+}
+
+.info-box-small .info-box-icon {
+	height: 52px;
+	font-size: 25px;
+	line-height: 35px;
+}*/
+
+.bg-red-2 {
+	background: #e53935;
+	color: #fff;
+}
+
+.bg-orange-2 {
+	background: #607d8b;
+	color: #fff;
+}
+
+.bg-coklat {
+	background: #66bb6a;
+	color: #fff;
+}
+
+.bg-green-3 {
+	background: #009688;
+}
+
+.rank-label {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.rank-number {
+	font-size: 19px;
+}
