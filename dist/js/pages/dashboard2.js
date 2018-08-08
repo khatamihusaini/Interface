@@ -134,4 +134,40 @@ $(function () {
     barChart.Bar(barChartData, barChartOptions)
 
 
+     var donutData = [
+      { label: 'IndiHome', data: 10.6, color: '#dd4b39', percentage: '90,07' },
+      { label: 'Non IndiHome', data: 1.2, color: '#546e7a', percentage: '9,93' }
+    ]
+    $.plot('#donut-chart', donutData, {
+      series: {
+        pie: {
+          show       : true,
+          radius     : 1,
+          innerRadius: 0.4,
+          label      : {
+            show     : true,
+            radius   : 2 / 3,
+            formatter: labelFormatter,
+            threshold: 0.1
+          }
+
+        }
+      },
+      legend: {
+        show: false
+      }
+    })
+
+    function labelFormatter(label, series) {
+       console.log(series)
+    return '<div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">'
+      + label
+      + '<br>'
+      + series.data[0][1] + " (" + series.percentage + "%)" + '</div>'
+
+  }
+
+
 });
+
+

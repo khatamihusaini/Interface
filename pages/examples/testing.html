@@ -475,10 +475,6 @@
           </section>
 
 
-
-
-          
-
             <div class="row">
 
               <div class="col-md-6">
@@ -620,7 +616,7 @@
                 <div class="col-md-6">
                   <section id="monthly-growth" class="content-header">
                     <h1 style="margin-bottom: 10px">
-                      Growth MoM Juni 2018
+                      Growth YoY Juni 2018
                     </h1>
                 <div class="box">
                   <div class="box-header with-border">
@@ -751,12 +747,82 @@
                 <!-- /.col -->
 
                 <!-- new -->
-
+ 
               </div>
 
             </section>
 
-            <!-- blabla -->
+            <!-- pie chart rev product -->
+            
+            <div class="row">
+              <div class="col-md-6">
+
+                <section id="revenue-product" class="content-header">
+                  <h1 style="margin-bottom: 10px">
+                    Revenue per Product 2018
+                  </h1>
+
+                  <div class="box">
+                    <div class="box-header with-border">
+                      <h3 class="box-title">Revenue per Product</h3>
+
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-wrench"></i></button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                      </div>
+                    </div>
+                      <!-- /.box-header -->
+                      <div class="box-body">
+
+                        <div class="row">
+                          <div class="col-md-12">
+
+
+                            <div class="row">
+                              <div class="col-md-6">
+
+                                <div id="donut-chart" style="height: 300px;"></div>
+                              </div>
+                           
+
+                              <div class="col-md-6" style="margin-top: 15px;">
+
+                                <div class="progress-group">
+                                  <span class="progress-text">Indihome</span>
+                                  <span class="progress-number">10,6</span>
+                                </div>
+                                <!-- /.progress-group -->
+                                <div class="progress-group">
+                                  <span class="progress-text">Non Indihome</span>
+                                  <span class="progress-number">1,2</span>
+                                </div>
+                                <!-- /.progress-group -->
+                                <div class="progress-group">
+                                  <span class="progress-text"><b>TOTAL</b></span>
+                                  <span class="progress-number"><b>11,7</b></span>
+                                </div>
+                              </div>
+
+                              <!-- /.progress-group -->
+                            </div>
+                          </div>
+                        
+                    </div>
+                  </section>
+                </div>
+              </div>
      
           </div>
           <!-- /.container -->
@@ -788,6 +854,15 @@
 
       <!-- ChartJS -->
       <script src="../../dist/js/chart.js/Chart.js"></script>
+
+      <!-- FLOT CHARTS -->
+<script src="../../bower_components/Flot/jquery.flot.js"></script>
+<!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
+<script src="../../bower_components/Flot/jquery.flot.resize.js"></script>
+<!-- FLOT PIE PLUGIN - also used to draw donut charts -->
+<script src="../../bower_components/Flot/jquery.flot.pie.js"></script>
+<!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
+<script src="../../bower_components/Flot/jquery.flot.categories.js"></script>
 
       <!-- AdminLTE for demo purposes -->
       <script src="../../dist/js/pages/dashboard2.js"></script>
