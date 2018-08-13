@@ -556,10 +556,11 @@ $(function () {
 
   // pie chart2
 
-    var donutData = [
-      { label: 'Kandatel muara Bungo', data: 11.1, color: '#ff0', percentage: '16,86' },
-      { label: 'Jambi Inner', data: 43.7, color: '#0f0', percentage: '66,54' },
-      { label: 'Jambi Outer', data: 10.9, color: '#00f', percentage: '16,60' }
+    var donutData = [      
+      { label: 'Jambi Outer', data: 10.9, color: '#8BC34A', percentage: '16,60' },
+      { label: 'Jambi Inner', data: 43.7, color: '#2196F3', percentage: '66,54' },
+      
+      { label: 'Kandatel M. Bungo', data: 11.1, color: '#FFCA28', percentage: '16,86' }
     ]
     $.plot('#donut-chart2', donutData, {
       series: {
